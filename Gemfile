@@ -7,7 +7,6 @@ gem 'rails', '~> 5.2.3'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 gem 'jbuilder', '~> 2.5'
-gem 'bcrypt', '~> 3.1.7'
 gem 'devise_token_auth'
 gem 'activeadmin'
 
@@ -30,7 +29,7 @@ gem 'rack-cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'factory_bot_rails'
+  # gem 'factory_bot_rails'
   gem 'faker'
   gem 'shoulda-matchers'
   gem 'rspec-rails'
